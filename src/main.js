@@ -8,6 +8,8 @@ import router from './router'
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 
+var VueScrollTo = require('vue-scrollto');
+Vue.use(VueScrollTo)
 
 /* eslint-disable no-new */
 new Vue({
